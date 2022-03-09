@@ -29,6 +29,16 @@ cópia e seus arquivos modificados com o ramo principal do projeto.
  git merge " branch a receber o merge " - permite fazer o merge com a branch ativa
  atualmente com outra branch.
 
+  Push Request
+O Push Request é o envio das modificações após o Merge para o repositório central, para que 
+todas as outras pessoas que atuam no desenvolvimento possam atualizar suas cópias e revisar o 
+código criado, verificando conflitos com seus próprios trabalhos.
+
+   Pull Request
+O Pull Request é utilizado quando outra pessoa que atua no desenvolvimento muda o ramo 
+principal no repositório central, puxando as modificações realizadas para a sua máquina, 
+fundindo a nova versão com o seu código local.
+ 
  Fork
 Trata-se do comando de cópia de um repositório remoto para a máquina local, realizado sempre 
 que vamos começar a trabalhar em um projeto que já existe.
