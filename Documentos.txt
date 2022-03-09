@@ -1,0 +1,61 @@
+  O que é Git e GitHub?
+  Git é um sistema de controle de versão,  utilizado para a criação
+  em código-fonte de projetos de desenvolvimento de software.
+  
+  GitHub é um repositório remoto, criado como um serviço online de 
+  hospedagem de repositórios do Git. Funciona como um servidor que agrega
+  todas as modificações realizadas por cada pessoa no projeto, unificando
+  as diferentes versões de códigos e seus históricos.
+
+  Repositório
+O primeiro é o repositório, local físico onde os arquivos e suas cópias ficarão 
+armazenados, o repositório pode ser local ou remoto.
+ git init para iniciar um novo repositório
+   
+   Branch
+Branches são os ramos, cópias do código original que podem ser manipuladas de forma 
+livre, sem afetar as funcionalidades em produção no código-fonte.
+Isso permite que todas as alterações sejam realizadas de forma segura, sem que erros 
+ocorram na cópia principal do projeto.
+ git checkout -b " nome da nova branch " - permite criar e mudar uma nova branch
+ git branch - permite listar e ver qual branch está ativa
+ git checkout " nome da branch " - permite mudar para uma nova branch
+ git pull - atualiza a branch atualmente ativa
+ git push - envia atualizações para as nuvens na branch ativa.
+
+   Merge
+Após a finalização de um trabalho em um Branch, é necessário realizar o Merge, fundir a 
+cópia e seus arquivos modificados com o ramo principal do projeto.
+ git merge " branch a receber o merge " - permite fazer o merge com a branch ativa
+ atualmente com outra branch.
+
+ Fork
+Trata-se do comando de cópia de um repositório remoto para a máquina local, realizado sempre 
+que vamos começar a trabalhar em um projeto que já existe.
+ 
+Comandos
+git init - inicia um novo repositório 
+git add . - adiciona os arquivos atuais ao próximo commit
+git status - verifica o status atual dos repositórios git 
+git commit -m "msg" - cria uma nova versão do código.
+git remote add origin "link" - define para onde o código será enviado
+git push - envia as atualizações para a nuvem
+git branch - permite listar e ver qual branch está ativa.
+git checkout nome-da-branch - permite mudar para uma nova branch
+git checkout -b "nome-da-branch de origem" " nome da nova branch " - permite mudar e criar uma 
+branch com base em outra.
+git merge "branch a receber merge" - permite fazer o merge da branch ativa com outra branch
+git pull - atualiza a branch ativa
+git diff - status mais detalhado
+git log - vê histórico de commits
+
+
+
+
+
+
+
+ 
+
+
+ 
